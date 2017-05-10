@@ -1,25 +1,13 @@
-# Freelancer
+# leccion30-enunciado
+# LECCIÓN 30 - FLEXBOX
+## EJERCICIO ENUNCIADO: FREELANCER
+### DESCRIPCIÓN:
 
-Para trabajar en este proyecto, primero deberás clonarlo:
+Replicaremos un template basado en Bootstrap, pero en nuestro caso lo haremos con CSS, este proyecto es llamado Freelancer:
 
-```sh
-git clone https://gitlab.com/laboratoria/freelancer.git
-```
+Para completar el objetivo de este ejercicio deberás realizar las siguientes características del sitio:
 
-Luego, para poder trabajar en él y enlazarlo con nuestro repositorio, deberemos ingresar a la carpeta descargada y borrar el .git que nos trae por defecto (tener cuidado con el segundo comando, asegurarse de que esté bien escrito):
-
-```sh
-cd freelancer
-rm -rf .git
-```
-
-Por último, una vez creado tu repositorio en Github, simplemente inicializar Git y agregar tu remoto:
-
-```sh
-git init
-git remote add origin htttps://github.com/<usuario>/<nombre-repositorio>.git
-```
-
-Con estos pasos ya puedes seguir tu workflow de siempre haciendo commits y pusheando a tu repositorio remoto :)
-
-`Recuerda`: Este proyecto consiste en replicar este [website](https://blackrockdigital.github.io/startbootstrap-freelancer/).
+  - Hacer la barra de navegación fixed y efecto de scroll.
+  - La portada de presentación
+  - La sección del portafolio usando grid y con hover
+  - La sección de about, contact y footer.
