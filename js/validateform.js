@@ -14,10 +14,6 @@ function validateForm(){
   validatePhone(phone);
   validateEmail(email);
   validateMessage(message);
-
-  name.addEventListener("blur", function(){
-    document.getElementById("m-phone").innerHTML=" ";
-  })
   }
 
 function validatePhone(phone){
@@ -71,3 +67,20 @@ function validateMessage(message){
     document.getElementById("m-message").innerHTML=" ";
   }
 }
+
+
+document.getElementById("name").addEventListener("focus", function(){
+  document.getElementById("m-name").innerHTML=" ";
+});
+
+document.getElementById("email").addEventListener("focus", function(){
+  document.getElementById("m-email").innerHTML=" ";
+});
+
+document.getElementById("message").addEventListener("focus", function(){
+  document.getElementById("m-message").innerHTML=" ";
+});
+
+document.getElementById("phone").addEventListener("focus", function(){
+  document.getElementById("m-phone").innerHTML=" ";
+});
