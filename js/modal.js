@@ -11,8 +11,6 @@ for(i=0; i < listImg.length; i++){
     })
   }
 
-
-
 function callModal(src){
   modal.style.display = "block";
   modalImage.src = src;
