@@ -94,6 +94,13 @@ header{
   margin-bottom: 32px;
 }
 
+.img:hover{
+  opacity: 0.3;
+}
+.img-items:hover{
+  background-color: #18BC9C;;
+
+}
 /** Modal **/
 .modal {
     display: none;
