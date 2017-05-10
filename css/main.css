@@ -1,32 +1,105 @@
-body{
-width: 100%;
+a {
+  color: white;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 14px;
 }
 
+li{
+  list-style: none;
+}
+
+/** header **/
 header{
+  top: 0;
   width: 100%;
   position: fixed;
   font-family: Montserrat, sans-serif;
 }
 
-header>nav{
+.nav{
   width: 100%;
-  height: 100px;
-  margin: 0 100px;
-  align-items: center;
-}
-
-a {
-  color: white;
-  text-decoration: none;
-  font-weight: bold;
-  font-size: 14px;
-}
-
-.menu-start{
-  width: 70%;
-}
-
-.menu-end{
-  width: 30%;
+  height: 70px;
   justify-content: space-between;
+}
+
+.menu-left{
+  width: 300px;
+  margin-left: 100px;
+}
+
+.menu-right{
+  display: inline-flex;
+  width: 300px;
+  margin-right: 100px;
+  justify-content: space-between;
+}
+
+/** section start bootstrap **/
+.m-top{
+  margin-top: 70px;
+}
+
+.p-top-bot{
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.title-main{
+  font-family: Montserrat, sans-serif;
+  font-size: 67px;
+  font-weight: bold;
+}
+
+.line{
+  width: 100px;
+  border: 3px solid;
+}
+
+.line-start{
+  width: auto;
+  justify-content: center;
+}
+
+.subtitle{
+  font-family: Lato, sans-serif;
+  font-weight: normal;
+  font-size: 25px;
+}
+
+/** section portfolio **/
+.images{
+  margin-left: 100px;
+  margin-right: 100px;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.img-items{
+  width: 360px;
+  height: 260px;
+  margin-bottom: 32px;
+}
+
+/** section about **/
+.about{
+  width: 56%;
+  justify-content: space-between;
+}
+
+.text-col{
+  font-family: Lato,sans-serif;
+  font-size: 20px;
+  width: 360px;
+}
+
+.bt-down{
+  margin-top: 30px;
+  font-family: Lato,sans-serif;
+  font-size: 20px;
+  border: 0;
+  background-color: rgba(122, 226, 26, 0);
+  border: 2px solid white;
+  border-radius: 10px;
+  padding: 10px;
 }

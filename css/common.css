@@ -4,16 +4,26 @@
   padding: 0;
 }
 
-.jade{
-  background-color: #19C3A8;
+.bg-jade{
+  background-color: #18BC9C;
+}
+
+.bg-grey{
+  background-color: #2C3E50;
+}
+
+.white{
+  color: white;
 }
 
 .grey{
-  background-color: #31455A;
+  color: #2C3E50;
 }
 
 .flex-container{
   display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .flex-end{
@@ -24,6 +34,10 @@
   justify-content: flex-start;
 }
 
-.s{
+.col{
+  flex-direction: column;
+}
 
+.row{
+  flex-direction: row;
 }
