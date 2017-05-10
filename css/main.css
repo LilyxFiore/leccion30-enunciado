@@ -93,13 +93,16 @@ header{
   width: 360px;
 }
 
-.bt-down{
-  margin-top: 30px;
+.bt-div{
+  margin-top: 35px;
   font-family: Lato,sans-serif;
-  font-size: 20px;
-  border: 0;
-  background-color: rgba(122, 226, 26, 0);
   border: 2px solid white;
   border-radius: 10px;
   padding: 10px;
+}
+
+.bt-down{
+  font-size: 20px;
+  border: 0;
+  background-color: rgba(122, 226, 26, 0);
 }
