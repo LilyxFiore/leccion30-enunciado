@@ -88,22 +88,26 @@
 				<span class="line"></span>
 			</div>
 			<div class="flex-container contact column">
- 				<form action="" class="form-contact">
+ 				<form action="" class="form-contact" id="form-contact">
  					<div class="box-input">
- 						<label for="name"></label>
-						<input type="text" class="form-control" placeholder="Name">
+ 						<label for="name" class="label"></label>
+						<input type="text" class="form-control" placeholder="Name" id="name">
+						<p class="lato" id="m-name"></p>
  					</div>
 					<div class="box-input">
 						<label for="email"></label>
-						<input type="email" class="form-control" placeholder="Email Address">
+						<input type="email" class="form-control" placeholder="Email Address" id="email">
+						<p class="lato" id="m-email"></p>
 					</div>
 					<div class="box-input">
 						<label for="phone"></label>
-						<input type="text" class="form-control" placeholder="Phone Number">
+						<input type="text" class="form-control" placeholder="Phone Number" id="phone" title="El número celular debe empezar con 9" pattern="[9]{1}[0-9]{8}">
+						<p class="lato" id="m-phone"></p>
 					</div>
 					<div class="box-input">
 						<label for="message"></label>
-						<textarea type="text" class="form-control" style="height: 230px" placeholder="Message"></textarea>
+						<textarea type="text" class="form-control" style="height: 230px" placeholder="Message" id="message"></textarea>
+						<p class="lato" id="m-message"></p>
 					</div>
 					<button type="submit" class="bt-send">Send</button>
  				</form>
@@ -148,6 +152,9 @@
 				<p class="white lato">Copyright © Your Website 2016</p>
 			</div>
 		</footer>
+
+		<!-- script-->
 		<script src="js/nav-change.js"></script>
+		<script src="js/validateform.js"></script>
 	</body>
 </html>

@@ -190,8 +190,25 @@ header{
 
 .form-control::-webkit-input-placeholder { color: rgba(#555, 0.86); font-weight :normal; }
 
-label{
+
+label {
   margin-bottom: 5px;
+  color: #18BC9C;
+  -webkit-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  font-size: 16px;
+  position: absolute;
+  font-weight: 300;
+  top: -6px;
+  left: 0;
+}
+
+.label-active { /*Al dar click de activa la clase active disminuirá el tamaño de la fuente*/
+  top: 0px;
+  font-size: 10px;
+  line-height: 12px;
+  color: #bfc7d9;
 }
 
 .bt-send{
