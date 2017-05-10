@@ -4,6 +4,19 @@
   padding: 0;
 }
 
+h3{
+  font-size: 24px;
+  margin-bottom: 30px;
+}
+
+.mont{
+  font-family: Montserrat, sans-serif;
+}
+
+.lato{
+  font-family: Lato, sans-serif;
+}
+
 .bg-jade{
   background-color: #18BC9C;
 }
@@ -14,6 +27,10 @@
 
 .white{
   color: white;
+}
+
+.jade{
+  color: #18BC9C;
 }
 
 .grey{

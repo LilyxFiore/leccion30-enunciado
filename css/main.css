@@ -9,7 +9,7 @@ li{
   list-style: none;
 }
 
-/** header **/
+/** header & nav**/
 header{
   top: 0;
   width: 100%;
@@ -21,6 +21,19 @@ header{
   width: 100%;
   height: 70px;
   justify-content: space-between;
+}
+
+.active{
+  height: 100px;
+}
+
+.active-nav{
+  color: #fff;
+  background: #18BC9C;
+}
+
+.menu{
+  padding: 15px 10px;
 }
 
 .menu-left{
@@ -35,7 +48,7 @@ header{
   justify-content: space-between;
 }
 
-/** section start bootstrap **/
+/** section portadan start bootstrap **/
 .m-top{
   margin-top: 70px;
 }
@@ -81,6 +94,42 @@ header{
   margin-bottom: 32px;
 }
 
+/** Modal **/
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 30px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    text-align: center;
+}
+
+.modal-image {
+    width: 55%;
+    border: 10px solid white;
+    box-shadow: 6px 6px rgba(0, 0, 0, 0.2);
+}
+
+.modal-close {
+    position: absolute;
+    top: 20px;
+    right: 24%;
+    color: #3dd1a0;
+    text-shadow: 1px 1px rgba(8, 8, 8, 0.15);
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.modal-close:hover,
+.modal-close:focus {
+    color: #fff;
+    cursor: pointer;
+}
+
 /** section about **/
 .about{
   width: 56%;
@@ -94,15 +143,108 @@ header{
 }
 
 .bt-div{
+  width: 200px;
   margin-top: 35px;
+}
+
+.download{
   font-family: Lato,sans-serif;
+  font-size: 20px;
+  font-weight: normal;
   border: 2px solid white;
   border-radius: 10px;
   padding: 10px;
 }
 
-.bt-down{
-  font-size: 20px;
+.download:hover{
+  background-color: white;
+  color: #18BC9C;
+}
+
+/** section contact me **/
+.contact{
+  width: 780px;
+
+}
+
+.form-contact{
+  width: 100%;
+}
+
+.box-input{
+  width: 100%;
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+  padding: 0 15px 7px 15px;
+}
+
+.form-control{
+  width: 100%;
+  height: 70px;
+  padding: 6px 0;
   border: 0;
-  background-color: rgba(122, 226, 26, 0);
+  outline: none;
+  font-family: Lato, sans-serif;
+  font-size: 21px;
+}
+
+.form-control::-webkit-input-placeholder { color: rgba(#555, 0.86); font-weight :normal; }
+
+label{
+  margin-bottom: 5px;
+}
+
+.bt-send{
+  color: white;
+  background-color: #18BC9C;
+  border: 0;
+  border-radius: 6px;
+  padding: 10px 16px;
+  margin-top: 15px;
+  font-size: 18px;
+}
+
+/** footer **/
+.footer{
+  padding-top: 50px;
+}
+
+.f-items{
+  text-align: center;
+  width: 360px;
+  color: white;
+}
+
+.f-text{
+  font-family: Lato, sans-serif;
+  font-size: 20px;
+  text-align: center;
+  white-space: pre-line;
+}
+
+/** boton redes sociales **/
+.footer{
+  justify-content: space-around;
+  padding-bottom: 60px;
+}
+
+.bt-social{
+  width: 50px;
+  height: 50px;
+  font-size: 20px;
+  border: 2px solid white;
+  border-radius: 100%;
+  padding: 10px;
+}
+
+.inline>li{
+  display: inline-flex;
+  margin: 0 6px;
+}
+
+/* footer below*/
+.f-below{
+  width: 100%;
+  height: 70px;
+  background-color: #233140;
 }
